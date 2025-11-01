@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample pizza restaurant UI made using HTML, CSS and basic JavaScript">
+    <title>Pizza Restaurant</title>
+    <link rel="icon" type="image/png" href="Assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="start-page">
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">Pizza Restaurant</div>
+                <div class="navigation-links">
+                    <ul>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#about">BLOGS</a></li>
+                        <li><a href="#about">TESTIMONY</a></li>
+                        <li><a href="#find-us">FIND US</a></li>
+                        <li><a href="#about">OUR TEAM</a></li>
+                    </ul>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/"><img src="/Assets/instagram.png" alt="Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/"><img src="Assets/facebook.png" alt="Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.whatsapp.com/"><img src="Assets/whatsapp.png" alt="Whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div onclick=openSidebar() class="hamburger-menu">
+                    <img src="Assets/open-menu.png" alt="open-menu button">
+                </div>
+            </nav>
+            <nav class="sidebar">
+                <div onclick=hideSidebar() class="hamburger-menu">
+                    <img src="Assets/close-menu.png" alt="close-menu button">
+                </div>
+                <div class="navigation-links">
+                    <ul>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#about">BLOGS</a></li>
+                        <li><a href="#about">TESTIMONY</a></li>
+                        <li><a href="#find-us">FIND US</a></li>
+                        <li><a href="#about">OUR TEAM</a></li>
+                    </ul>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/"><img src="/Assets/instagram.png" alt="Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/"><img src="Assets/facebook.png" alt="Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.whatsapp.com/"><img src="Assets/whatsapp.png" alt="Whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Main Content Here -->
+        <main class="main">
+            <img class="background" src="Assets/background.png" alt="A chessy slice of pizaa margherita">
+            <div class="greeting-text">
+                <h1>Craving for a chessy pizza?</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui. Vestibulum ut
+                    felis et lorem porta congue vitae nec turpis. Aliquam quis leo at nunc tempor faucibus et ac massa.
+                </p>
+            </div>
+        </main>
+    </section>
+
+    <section class="section about-us" id="about">
+        <div class="section-header">
+            <h2>ABOUT US</h2>
+            <hr>
+        </div>
+        <div class="about">
+            <div class="about-text">
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui. Vestibulum ut
+                    felis et lorem porta congue vitae nec turpis. Aliquam quis leo at nunc tempor faucibus et ac massa.
+                    Curabitur euismod, nisi vel consectetur interdum, nisl nisi aliquam nisl, eu aliquam nisl nisi eu
+                    nisl.</p>
+            </div>
+            <div class="about-image">
+                <img src="Assets/about-us.png" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+
+    <section class="section menu" id="menu">
+        <div class="section-header">
+            <h2>MENU</h2>
+            <hr>
+        </div>
+        <p class="menu-text">Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt
+            all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to
+            savour the best pizza in town.</p>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Assets/pizza1.png" alt="pizza1">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Assets/pizza2.png" alt="pizza2">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Assets/bread1.png" alt="bread1">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Assets/bread2.png" alt="bread2">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Assets/salad1.png" alt="Healthy salad">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Assets/shake1.png" alt="Creamy Shake">
+                <div class="menu-info">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+
+    <section class="section carousel-section" id="carousel-section">
+        <div class="section-header">
+            <h2>Carousel</h2>
+            <hr>
+        </div>
+        <div class="carousel">
+            <button class="carousel-button carousel-button-left">
+                <img class="carousel-slider" src="Assets/button-left.png" alt="">
+            </button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-slide current-slide">
+                        <img class="carousel-images" src="Assets/slide1.png" alt="">
+                    </li>
+                    <li class="carousel-slide">
+                        <img class="carousel-images" src="Assets/slide2.jpg" alt="">
+                    </li>
+                    <li class="carousel-slide">
+                        <img class="carousel-images" src="Assets/slide3.jpg" alt="">
+                    </li>
+                    <li class="carousel-slide">
+                        <img class="carousel-images" src="Assets/slide4.jpg" alt="">
+                    </li>
+                    <li class="carousel-slide">
+                        <img class="carousel-images" src="Assets/slide5.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-button carousel-button-right">
+                <img class="carousel-slider" src="Assets/button-right.png" alt="">
+            </button>
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-indicator active"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+        </div>
+    </section>
+    <section class="section gallary" id="gallary">
+        <div class="section-header">
+            <h2>Gallary</h2>
+            <hr>
+        </div>
+        <div class="gallery">
+            <div class="gallery-large">
+                <img src="Assets/item1.png" alt="Large feature">
+            </div>
+
+            <div class="gallery-col-3">
+                <img src="Assets/item2.png" alt="Thumbnail 1">
+                <img src="Assets/item3.png" alt="Thumbnail 2">
+                <img src="Assets/item4.png" alt="Thumbnail 3">
+                <img src="Assets/item2.png" alt="Thumbnail 1" id="extra-item">
+            </div>
+
+            <div class="gallery-col-2">
+                <img src="Assets/item5.png" alt="Thumbnail 4">
+                <img src="Assets/item6.png" alt="Thumbnail 5">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section find-us" id="find-us">
+        <div class="section-header">
+            <h2>FIND US</h2>
+            <hr>
+        </div>
+        <div class="find-us-container">
+            <div class="find-us-info">
+                <p class="find-us-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text e.</p>
+                <div class="find-us-location">
+                    <img class="find-us-icons" src="Assets/location.png" alt="Location">
+                    <p class="find-us-info-details">Location XYZ, XYZ Colony, Pune</p>
+                </div>
+                <div class="find-us-phone">
+                    <img class="find-us-icons" src="Assets/phone.png" alt="Phone number">
+                    <p class="find-us-info-details">123-456-789</p>
+                </div>
+            </div>
+            <div class="find-us-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121057.15948697132!2d73.76486641768913!3d18.52726467046633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1407659a6df%3A0x30e3ae632646e1d4!2sDomino&#39;s%20Pizza%20%7C%20Viman%20Nagar%2C%20Pune!5e0!3m2!1sen!2sin!4v1761950060648!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="footer-icon">
+            <img src="Assets/greeting.png" alt="Greetings" class="greeting">
+        </div>
+        <div class="footer-contacts">
+            <div class="footer-contact footer-contact-email">
+                <img src="Assets/email.png" alt="email-id">
+                <p>mailid@gmail.com</p>
+            </div>
+            <div class="footer-contact footer-contact-phone">
+                <img src="Assets/phone.png" alt="phone number">
+                <p>123-456-789</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+</body>
+
+</html>
